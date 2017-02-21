@@ -1,4 +1,4 @@
-Roses are red [followed by two or more spaces]
+Roses are red  
 Violets are blue
 
 Sugar is sweet
