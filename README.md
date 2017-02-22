@@ -56,9 +56,10 @@ s = "There is no highlighting for this."
 But let's throw in a <b>tag</b>.
 ```
 
-With inline diffs tags you can display  {additions}  or  [deletions] .
+```
+With inline diffs tags you can display  {"additions"}  or  ["deletions"] .
 
-The wrapping tags can be either curly braces or square brackets  {additions}  or  [deletions] .
+The wrapping tags can be either curly braces or square brackets  {"additions"}  or  ["deletions"] .
 
 However the wrapping tags cannot be mixed as such:
 
@@ -67,3 +68,5 @@ However the wrapping tags cannot be mixed as such:
 [+ additions +}
 {- deletions -]
 [- deletions -}
+
+```
