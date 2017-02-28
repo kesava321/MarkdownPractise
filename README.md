@@ -225,3 +225,24 @@ _Be advised that KaTeX only supports a [subset][katex-subset] of LaTeX._
 
 >**Note:**
 This also works for the asciidoctor `:stem: latexmath`. For details see the [asciidoctor user manual][asciidoctor-manual].
+
+## Standard Markdown
+
+### Headers
+
+```no-highlight
+# H1
+## H2
+### H3
+#### H4
+##### H5
+###### H6
+
+Alternatively, for H1 and H2, an underline-ish style:
+
+Alt-H1
+======
+
+Alt-H2
+------
+```
