@@ -145,4 +145,39 @@ It also has a shorthand version to reference other projects from the same namesp
 | `project@9ba12248...b19a04f5` | commit range comparison |
 | `project~"Some label"`        | issues with given label |
 
+### Task Lists
+
+
+You can add task lists to issues, merge requests and comments. To create a task list, add a specially-formatted Markdown list, like so:
+
+```no-highlight
+- [x] Completed task
+- [ ] Incomplete task
+    - [ ] Sub-task 1
+    - [x] Sub-task 2
+    - [ ] Sub-task 3
+```
+
+- [x] Completed task
+- [ ] Incomplete task
+    - [ ] Sub-task 1
+    - [x] Sub-task 2
+    - [ ] Sub-task 3
+
+Tasks formatted as ordered lists are supported as well:
+
+```no-highlight
+1. [x] Completed task
+1. [ ] Incomplete task
+    1. [ ] Sub-task 1
+    1. [x] Sub-task 2
+```
+
+1. [x] Completed task
+1. [ ] Incomplete task
+    1. [ ] Sub-task 1
+    1. [x] Sub-task 2
+
+Task lists can only be created in descriptions, not in titles. Task item state can be managed by editing the description's Markdown or by toggling the rendered check boxes.
+
 
