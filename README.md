@@ -61,9 +61,9 @@ But let's throw in a <b>tag</b>.
 -Test removal
 ```
 
-```diff
-The wrapping tags can be either curly braces or square brackets  {"additions"}  or  ["deletions"] .
-```
+### test title 
+The wrapping tags can be either curly braces or square brackets  [+ additions +]  or  [- deletions -] .
+
 
 ```diff
 However the wrapping tags cannot be mixed as such:
