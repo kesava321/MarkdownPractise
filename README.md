@@ -61,11 +61,10 @@ But let's throw in a <b>tag</b>.
 -Test removal
 ```
 
-### test title 
+### Inline Diff
 The wrapping tags can be either curly braces or square brackets  [+ additions +]  or  [- deletions -] .
 
 
-```diff
 However the wrapping tags cannot be mixed as such:
 
 {+ additions +]
@@ -73,7 +72,6 @@ However the wrapping tags cannot be mixed as such:
 {- deletions -]
 [- deletions -}
 
-```
 
 ``` 
 Sometimes you want to :monkey: around a bit and add some :star2: to your :speech_balloon:. Well we have a gift for you:
