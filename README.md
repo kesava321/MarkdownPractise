@@ -1,13 +1,17 @@
+#Markdown Practice
+###Newline
 Roses are red  
 Violets are blue
 
 Sugar is sweet
 
+### Multiple Underscore In Words
 
 perform_complicated_task
 
 do_this_and_do_that_and_another_thing
 
+### URL Auto-Linking
 
 * https://www.google.com
 * https://google.com/
@@ -16,7 +20,7 @@ do_this_and_do_that_and_another_thing
 * irc://irc.freenode.net/gitlab
 * http://localhost:3000
 
-
+### Multiline Blockquote
 >>>
 If you paste a message from somewhere else
 
@@ -29,7 +33,7 @@ multiple lines,
 you can quote that without having to manually prepend `>` to every line!
 >>>
 
-
+### Code and Syntax Highlighting
 Inline `code` has `back-ticks around` it.
 
 ```javascript
@@ -86,4 +90,15 @@ If you are new to this, don't be :fearful:. You can easily join the emoji :famil
 
 Consult the [Emoji Cheat Sheet](http://emoji.codes) for a list of all supported emoji codes. :thumbsup:
 
+
+### Special GitLab References
+
+GFM recognizes special references.
+
+You can easily reference e.g. an issue, a commit, a team member or even the whole team within a project.
+
+GFM will turn that reference into a link so you can navigate between them easily.
+
+GFM will recognize the following:
+Refer to https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/user/markdown.md 
 
