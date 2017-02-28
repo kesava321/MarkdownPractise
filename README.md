@@ -194,3 +194,34 @@ The valid video extensions are `.mp4`, `.m4v`, `.mov`, `.webm`, and `.ogv`.
 Here's a sample video:
 
 ![Sample Video](img/markdown_video.mp4)
+
+### Math
+
+It is possible to have math written with the LaTeX syntax rendered using [KaTeX][katex].
+
+Math written inside ```$``$``` will be rendered inline with the text.
+
+Math written inside triple back quotes, with the language declared as `math`, will be rendered on a separate line.
+
+Example:
+
+    This math is inline $`a^2+b^2=c^2`$.
+
+    This is on a separate line
+    ```math
+    a^2+b^2=c^2
+    ```
+
+Becomes:
+
+This math is inline $`a^2+b^2=c^2`$.
+
+This is on a separate line
+```math
+a^2+b^2=c^2
+```
+
+_Be advised that KaTeX only supports a [subset][katex-subset] of LaTeX._
+
+>**Note:**
+This also works for the asciidoctor `:stem: latexmath`. For details see the [asciidoctor user manual][asciidoctor-manual].
