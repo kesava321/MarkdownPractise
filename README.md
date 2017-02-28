@@ -181,3 +181,16 @@ Tasks formatted as ordered lists are supported as well:
 Task lists can only be created in descriptions, not in titles. Task item state can be managed by editing the description's Markdown or by toggling the rendered check boxes.
 
 
+### Videos
+
+Image tags with a video extension are automatically converted to a video player.
+
+The valid video extensions are `.mp4`, `.m4v`, `.mov`, `.webm`, and `.ogv`.
+
+    Here's a sample video:
+
+    ![Sample Video](img/markdown_video.mp4)
+
+Here's a sample video:
+
+![Sample Video](img/markdown_video.mp4)
