@@ -230,7 +230,7 @@ This also works for the asciidoctor `:stem: latexmath`. For details see the [asc
 
 ### Headers
 
-```no-highlight
+
 # H1
 ## H2
 ### H3
@@ -245,4 +245,4 @@ Alt-H1
 
 Alt-H2
 ------
-```
+
