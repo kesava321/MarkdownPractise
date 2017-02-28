@@ -102,3 +102,47 @@ GFM will turn that reference into a link so you can navigate between them easily
 GFM will recognize the following:
 Refer to https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/user/markdown.md 
 
+| input                      | references                      |
+|:---------------------------|:--------------------------------|
+| `@user_name`               | specific user                   |
+| `@group_name`              | specific group                  |
+| `@all`                     | entire team                     |
+| `#123`                     | issue                           |
+| `!123`                     | merge request                   |
+| `$123`                     | snippet                         |
+| `~123`                     | label by ID                     |
+| `~bug`                     | one-word label by name          |
+| `~"feature request"`       | multi-word label by name        |
+| `%123`                     | milestone by ID                 |
+| `%v1.23`                   | one-word milestone by name      |
+| `%"release candidate"`     | multi-word milestone by name    |
+| `9ba12248`                 | specific commit                 |
+| `9ba12248...b19a04f5`      | commit range comparison         |
+| `[README](doc/README)`     | repository file references      |
+| `[README](doc/README#L13)` | repository file line references |
+
+GFM also recognizes certain cross-project references:
+
+| input                                   | references              |
+|:----------------------------------------|:------------------------|
+| `namespace/project#123`                 | issue                   |
+| `namespace/project!123`                 | merge request           |
+| `namespace/project%123`                 | milestone               |
+| `namespace/project$123`                 | snippet                 |
+| `namespace/project@9ba12248`            | specific commit         |
+| `namespace/project@9ba12248...b19a04f5` | commit range comparison |
+| `namespace/project~"Some label"`        | issues with given label |
+
+It also has a shorthand version to reference other projects from the same namespace:
+
+| input                         | references              |
+|:------------------------------|:------------------------|
+| `project#123`                 | issue                   |
+| `project!123`                 | merge request           |
+| `project%123`                 | milestone               |
+| `project$123`                 | snippet                 |
+| `project@9ba12248`            | specific commit         |
+| `project@9ba12248...b19a04f5` | commit range comparison |
+| `project~"Some label"`        | issues with given label |
+
+
